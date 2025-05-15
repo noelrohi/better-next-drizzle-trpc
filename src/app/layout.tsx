@@ -6,11 +6,12 @@ import type { Metadata } from "next";
 import { Funnel_Display, Lexend_Deca } from "next/font/google";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { ThemeProvider } from "next-themes";
+import { APP_NAME } from "@/constants";
 
 export const metadata: Metadata = {
   title: {
-    default: "Testify",
-    template: "%s | Testify",
+    default: APP_NAME,
+    template: `%s | ${APP_NAME}`,
   },
   description: "Get testimonials from your customers for free",
   icons: [{ rel: "icon", url: "/favicon.ico" }],

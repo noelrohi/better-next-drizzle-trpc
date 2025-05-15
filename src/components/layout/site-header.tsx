@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useTransition } from "react";
 import { ModeToggle } from "./mode-toggle";
+import { APP_NAME } from "@/constants";
 
 export function SiteHeader() {
   const [isPending, startTransition] = useTransition();
@@ -26,7 +27,7 @@ export function SiteHeader() {
       <div className="flex h-14 items-center justify-between px-4 lg:container lg:mx-auto">
         <div className="flex items-center gap-4">
           <h1 className="font-semibold text-2xl text-foreground tracking-tight font-display">
-            Testify
+            {APP_NAME}
           </h1>
           <nav className="ml-4">
             <Link
