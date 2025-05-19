@@ -9,6 +9,9 @@ const config = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    nodeMiddleware: true,
+  }
 };
 
 export default config;
