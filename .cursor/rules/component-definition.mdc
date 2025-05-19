@@ -53,7 +53,7 @@ Follow these guidelines when creating React components within the project.
 ## Styling
 
 -   **Tailwind CSS:** Use Tailwind CSS utility classes for styling.
--   **UI Primitives:** Leverage the pre-built components from `[src/components/ui](mdc:src/components/ui)` (based on shadcn/ui) for common UI elements like buttons, inputs, dialogs, etc. See `[src/app/spaces/[spaceId]/collector/page.client.tsx](mdc:src/app/spaces/[spaceId]/collector/page.client.tsx)` for examples.
+-   **UI Primitives:** Leverage the pre-built components from `[src/components/ui](mdc:src/components/ui)` (based on shadcn/ui) for common UI elements like buttons, inputs, dialogs, etc
 
 ## Imports
 
