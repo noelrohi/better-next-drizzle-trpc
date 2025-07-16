@@ -11,7 +11,7 @@ const config = {
   },
   experimental: {
     nodeMiddleware: true,
-  }
+  },
 };
 
 export default config;

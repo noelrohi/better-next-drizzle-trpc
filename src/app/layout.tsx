@@ -1,12 +1,12 @@
 import "@/styles/globals.css";
 
 import { Toaster } from "@/components/ui/sonner";
+import { APP_NAME } from "@/constants";
 import { TrpcReactProvider } from "@/trpc/react";
 import type { Metadata } from "next";
+import { ThemeProvider } from "next-themes";
 import { Funnel_Display, Lexend_Deca } from "next/font/google";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
-import { ThemeProvider } from "next-themes";
-import { APP_NAME } from "@/constants";
 
 export const metadata: Metadata = {
   title: {
